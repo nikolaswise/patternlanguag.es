@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main>
+  <h1>Pattern Languages</h1>
+  <h2>A collection.</h2>
+</main>
+
+<style>
+  main {
+    text-align: center;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+</style>

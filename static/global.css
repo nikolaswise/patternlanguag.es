@@ -1,0 +1,25 @@
+html {
+  --bg-color: rgb(241, 241, 241);
+  --txt-color: rgb(17, 17, 17);
+}
+
+.invert {
+  --bg-color: rgb(17, 17, 17);
+  --txt-color: rgb(241, 241, 241);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    --bg-color: rgb(17, 17, 17);
+    --txt-color: rgb(241, 241, 241);
+  }
+  .invert {
+    --bg-color: rgb(241, 241, 241);
+    --txt-color: rgb(17, 17, 17);
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
